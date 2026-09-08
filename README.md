@@ -13,24 +13,25 @@ A Python utility that computes file hashes for all binaries/samples in a target 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   git clone https://github.com/k3rnelcallz/virustotal_context_generator.git
    cd your-repo-name
-
+	```
 2. **Install dependencies:**
 	```bash
 	pip install requests python-dotenv
-
+	```
 3. **Configure API Key:**
    **Create a .env file in the root directory and add your VirusTotal API key:**
 	```bash
 	VT_API_KEY=your_virustotal_api_key_here
+ 	```
 
 ## Usage
  **Place your target binaries or suspicious files into the ./samples_folder directory.**
 
- **Run the analysis script:
+ Run the analysis script:
 
 ```bash
-  	python analyze_vt.py
+	python analyze_vt.py
 ```
    **Processed JSON dumps will be saved to the ./vt_ai_dumps/ directory, ready to copy/paste or upload to an AI model for malware triage.**
