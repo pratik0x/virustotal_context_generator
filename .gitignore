@@ -1,0 +1,27 @@
+# Environment variables / Secrets
+.env
+.env.*
+*.key
+
+# Malware sample folder and dumped JSON context
+samples_folder/
+vt_ai_dumps/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Editor / IDE settings
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
